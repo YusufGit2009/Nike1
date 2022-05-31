@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(228, 228, 228);
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background: #322E41;
+}
+
+.container{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+}
+
+nav ul{
+    padding: 24px 200px;
+    display: flex;
+}
+
+nav li{
+    padding-left: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Roboto';
+}
+
+nav img{
+    padding: 14px;
+    width: 103px;
+    height: 39px;
+}
+
+nav a:hover{
+    color: #D47300;
+    transition: 0.5s;
+    background: #FFFFFF;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 500px;
+    background: url(./img/Nike-Adapt-BB\ 1.jpg) center/cover;
+}
+
+.header__h1{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    padding-left: 95px;
+}
+
+.header__p{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.container__header{
+    width: 293px;
+    margin: auto;
+    padding-top: 167px;
+}
+
+/* Main */
+.container__main{
+    display: flex;
+    margin: auto;
+}
+.main__box1{
+    width: 540px;
+    height: 467px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.main__img{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.main__h2{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.main__p{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    color: #9B9B9B;
+}
+
+.main__box2{
+    width: 255px;
+    height: 218px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.main__img2{
+    padding-left: 88px;
+    padding-top: 15px;
+}
+.main__h22{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 6px;
+color: #2C2A2A;
+padding-top: 12px;
+text-align: center;
+}
+.main__p2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #9B9B9B;
+padding-left: 15px;
+padding-top: 12px;
+}
+main{
+    display: flex;
+    margin-top: 240px;
+    margin-bottom: 31px;
+}
+
+.main__info{
+}
+
+.main__box2:nth-last-child(2){
+    margin-left: 45px;
+}
+
+.main__box2:nth-last-child(1){
+    margin-left: 45px;
+    margin-top: 29px;
+}
+
+.main__info2{
+    display: flex;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 260px;
+    background: #322E41;
+    margin-top: 461px;
+}
+
+form{
+    margin-top: 36px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin-bottom: 10px;
+    border-radius: 6px;
+    height: 30px;
+    padding-left: 8px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+    
+}
+.button{
+    margin-top: 11px;
+    background: #544294;
+    border-radius: 6px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #FFFFFF;
+    border: #544294 solid;
+}
+
+.textarea{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+    height: 86px;
+    border-radius: 6px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.footer__ul1{
+    padding-left: 298px;
+    padding-top: 62px;
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+footer a{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+footer a:hover{
+    color: #D47300;
+    transition: 0.5s;
+}
+
+.footer__ul{
+    padding-top: 62px;
+    padding-left: 68px;
+}
